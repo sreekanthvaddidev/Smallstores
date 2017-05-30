@@ -29,7 +29,7 @@ public class BasicConfig {
     public DataSource dataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName("oracle.jdbc.driver.OracleDriver");
-        dataSource.setUrl("jdbc:oracle:thin:10.200.64.60:1521:MYUD11");
+        dataSource.setUrl("jdbc:oracle:thin:@10.200.64.60:1521:MYUD11");
         dataSource.setUsername("hydranl");
         dataSource.setPassword("hydra");
  

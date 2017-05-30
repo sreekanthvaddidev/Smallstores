@@ -11,7 +11,7 @@ java.text.SimpleDateFormat sdf1 = new java.text.SimpleDateFormat("yyyy m h s M H
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Themeforest Theme-RWD</title>
-<link rel="stylesheet" type="text/css" href="css/style2.css">
+<link rel="stylesheet" type="text/css" href="./view/css/style2.css">
 </head>
 
 <body>
@@ -23,7 +23,7 @@ java.text.SimpleDateFormat sdf1 = new java.text.SimpleDateFormat("yyyy m h s M H
 			<li><a href="">Home </a> </li> 
 		</ul>
 		<div class="logo">
-			<img src="images/logo.jpg" alt="" />
+			<img src="./view/images/logo.jpg" alt="" />
 		</div>
 		<div>
 			<ul class="menu">
@@ -43,10 +43,10 @@ java.text.SimpleDateFormat sdf1 = new java.text.SimpleDateFormat("yyyy m h s M H
 	</div>
 	<div class="banner">
 			<div>
-				<img src="images/banner.jpg" alt="" />
+				<img src="./view/images/banner.jpg" alt="" />
 			</div>
 			<div>
-				<img src="images/banner_2.jpg" alt="" />
+				<img src="./view/images/banner_2.jpg" alt="" />
 			</div>
 	</div>
 	<div class="leftColumn">
@@ -64,62 +64,62 @@ java.text.SimpleDateFormat sdf1 = new java.text.SimpleDateFormat("yyyy m h s M H
 		<div class="courses">
 			<h3>Breakfast</h3>
 			<div class="courseSec">
-				<img src="images/jam.jpg" alt="" />
+				<img src="./view/images/Jam.jpg" alt="" />
 				<div class="courseSecText">
 					<h4>Jam</h4>
-					<img src="images/rating_icon.jpg" alt="" />
+					<img src="./view/images/rating_icon.jpg" alt="" />
 					<p > 50 Rs</p>
 				</div>
 			</div>
 
 			<div class="courseSec">
-				<img src="images/butter.jpg" alt="" />
+				<img src="./view/images/butter.jpg" alt="" />
 				<div class="courseSecText">
 					<h4>Butter</h4>
-					<img src="images/rating_icon.jpg" alt="" />
+					<img src="./view/images/rating_icon.jpg" alt="" />
 					<p >30 Rs</p>
 				</div>
 			</div>
 
 			<div class="courseSec" style="margin-right: 0;">
-				<img src="images/Cheese.jpg" alt="" />
+				<img src="./view/images/Cheese.jpg" alt="" />
 				<div class="courseSecText">
 					<h4>Cheese</h4>
-					<img src="images/rating_icon.jpg" alt="" />
+					<img src="./view/images/rating_icon.jpg" alt="" />
 					<p >50 Rs</p>
 				</div>
 			</div>
 			<div class="courseSec">
-				<img src="images/Cornflakes.jpg" alt="" />
+				<img src="./view/images/Cornflakes.jpg" alt="" />
 				<div class="courseSecText">
 					<h4>Corn Flakes</h4>
-					<img src="images/rating_icon.jpg" alt="" />
+					<img src="./view/images/rating_icon.jpg" alt="" />
 					<p > 20 Rs</p>
 				</div>
 			</div>
 
 			<div class="courseSec">
-				<img src="images/Lite-Butter.jpg" alt="" />
+				<img src="./view/images/Lite-Butter.jpg" alt="" />
 				<div class="courseSecText">
 					<h4>Lite Butter</h4>
-					<img src="images/rating_icon.jpg" alt="" />
+					<img src="./view/images/rating_icon.jpg" alt="" />
 					<p > 70 Rs</p>
 				</div>
 			</div>
 
 			<div class="courseSec" style="margin-right: 0;">
-				<img src="images/Nutty.jpg" alt="" />
+				<img src="./view/images/Nutty.jpg" alt="" />
 				<div class="courseSecText">
 					<h4>Nutty</h4>
-					<img src="images/rating_icon.jpg" alt="" />
+					<img src="./view/images/rating_icon.jpg" alt="" />
 					<p >100 Rs</p>
 				</div>
 			</div>
 			<div class="courseSec">
-				<img src="images/Oat-Bites.jpg" alt="" />
+				<img src="./view/images/Oat-Bites.jpg" alt="" />
 				<div class="courseSecText">
 					<h4>Oats</h4>
-					<img src="images/rating_icon.jpg" alt="" />
+					<img src="./view/images/rating_icon.jpg" alt="" />
 					<p >30 Rs</p>
 				</div>
 			</div>
@@ -128,7 +128,7 @@ java.text.SimpleDateFormat sdf1 = new java.text.SimpleDateFormat("yyyy m h s M H
 	
 
 	<div class="footer">
-		<div class="left"><img src="images/logo-footer.jpg" alt="" /></div>
+		<div class="left"><img src="./view/images/logo-footer.jpg" alt="" /></div>
 		<div class="right">
 			<ul class="topLinks">
 				<li><a href="">About Us</a> </li> 
