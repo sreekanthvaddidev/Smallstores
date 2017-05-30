@@ -7,8 +7,7 @@ import org.springframework.stereotype.Service;
 import com.smallstore.config.entity.User;
 import com.smallstore.repository.UserRepository;
  
- 
-//@Service
+ @Service
 public class UserService {
     @Autowired
     UserRepository userDao;

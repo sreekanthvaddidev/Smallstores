@@ -17,7 +17,7 @@ import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-/*@Configuration
+@Configuration
 @EnableJpaRepositories( basePackages = {"com.smallstore.repository" })
 @EnableTransactionManagement
 @ComponentScan(basePackages = {"com.smallstore.service", "com.smallstore.repository", "com.smallstore.controller"})
@@ -69,4 +69,4 @@ public class BasicConfig {
     }
  
  
-}*/
+}

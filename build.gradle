@@ -48,6 +48,9 @@ repositories {
     maven {                
         url 'http://download.java.net/maven/glassfish/org/glassfish/'
     } 
+    maven {
+     url 'https://mvnrepository.com/artifact/com.oracle/ojdbc14'
+    }
     jcenter()
 }
 
@@ -96,9 +99,10 @@ dependencies {
     // mysql db, change the version is you have different MySql installation
     compile 'mysql:mysql-connector-java:5.0.8'
     
-    // https://mvnrepository.com/artifact/com.oracle/ojdbc14
-	//compile group: 'com.oracle', name: 'ojdbc14', version: '10.2.0.2.0'
-	
+	// https://mvnrepository.com/artifact/com.oracle/ojdbc14	
+	compile "com.oracle:ojdbc7.12.1.0.1"
+
+		
 	//compile files('libs/ojdbc7.jar')
 	
  

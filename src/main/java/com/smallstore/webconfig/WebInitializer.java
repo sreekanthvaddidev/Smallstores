@@ -9,6 +9,7 @@ import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
 
+import com.smallstore.config.BasicConfig;
 //import com.smallstore.config.BasicConfig;
 import com.smallstore.config.MvcConfig;
 
@@ -17,8 +18,8 @@ public class WebInitializer implements WebApplicationInitializer{
 	    public void onStartup( ServletContext servletContext ) throws ServletException {
 	        AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
 	 
-	      //  ctx.register(BasicConfig.class, MvcConfig.class);
-	        ctx.register(MvcConfig.class);
+	       ctx.register(BasicConfig.class, MvcConfig.class);
+	       // ctx.register(MvcConfig.class);
 	        servletContext.addListener( new ContextLoaderListener( ctx ) );
 	 
 	        AnnotationConfigWebApplicationContext dispatchCtx = new AnnotationConfigWebApplicationContext();
