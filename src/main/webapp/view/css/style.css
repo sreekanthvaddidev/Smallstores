@@ -1,0 +1,232 @@
+*{
+	font: normal 13px/18px 'Segoe UI',Arial,sans-serif;
+	color: #222;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+img{
+	max-width: 100%;
+}
+.wrapper{
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	float: none;
+	padding: 0px 15px;
+	box-sizing: border-box;
+}
+.header
+{	margin: 15px 0px;
+	width: 100%;
+	float: left;
+}
+.header .logo{
+	float: left;
+	width: 100%;
+	font-size: 30px;
+	font-weight: bold;
+	margin: 10px 0px; 
+}
+.header .logo span{
+	color: #007ac3;
+	font-weight: bold;
+	font-size: 30px; 
+}
+.header .menuSec{
+	width: 100%;
+	float: left;
+}
+nav{
+	margin: 0;
+	padding: 0;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+nav ul li{
+	float: left;
+	padding: 3px 20px;
+	text-transform: uppercase;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 15px;
+}
+nav ul li a:hover{
+	color: #007ac3;
+}
+#banner{
+	width: 100%;
+	float: left;
+}
+#banner img{
+	max-width: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+section{
+	width: 100%;
+	float: left;
+}
+.content{
+	width:100%;
+	float: left;
+	background-color: #ededed;
+	padding: 15px;
+	margin: 15px 15px 15px 0px;
+}
+.content h1{
+	font-size: 20px;
+	padding-bottom: 8px;
+}
+.sideSec{
+	width: 100%;
+	float: left;
+	margin: 13px 0px;
+}
+.sideSec h1{
+	font-size: 20px;
+	color: #00709a;
+	padding-bottom: 8px;
+}
+figure{
+	width: 100%;
+	margin-right: 20px;
+	float: left;
+	margin-bottom: 20px;
+}
+figure img{
+	width: 100%;
+	max-width: 100%;
+	float: left;
+}
+figurecaption{
+	color: #FFF; 
+	font-size: 18px;
+}
+.sec1{
+	background-color: #5d0953;
+	width: 100%;
+	display: block;
+	float: left;
+	padding: 10px 0px;
+	text-align: center;
+}
+.sec2{
+	background-color: #25171e;
+	width: 100%;
+	display: block;
+	float: left;
+	padding: 10px 0px;
+	text-align: center;
+}
+.sec3{
+	background-color: #572aa0;
+	width: 100%;
+	display: block;
+	float: left;
+	padding: 10px 0px;
+	text-align: center;
+}
+footer{
+	width: 100%;
+	float: left;
+	margin: 5px 0px 15px 0px;
+}
+footer .left{
+	width: 100%;
+	float: left;
+}
+footer .right{
+	width: 100%;
+	float: left;
+}
+@media screen and (min-width: 768px){
+	.header .logo{
+		width: 30%;
+	}
+	.header .menuSec{
+		width: 70%;
+		float: right;
+	}
+	nav ul{
+		float: right;
+	}
+	.content{
+		width:68%;
+		margin-right: 2%; 
+	}
+	.sideSec{
+		width: 30%;
+	}
+	figure{
+		width: 32%;
+		margin-right: 2%;
+	}
+	figure img{
+		float: left;
+	}
+	figurecaption{
+		font-size: 16px;
+	}
+	footer .left{
+		width: 50%;
+		float: left;
+	}
+	footer .right{
+		width: 50%;
+		float: right;
+		text-align: right;
+	}
+}
+@media screen and(min-width: 960px){
+	.wrapper{
+		max-width: 960px;
+		float: none;
+		margin: 0px auto;		
+	}
+	.header .logo{
+		width: 30%;
+	}
+	.header .menuSec{
+		width: 70%;
+		float: right;
+	}
+	nav ul{
+		float: right;
+	}
+	.content{
+		width:68%;
+		margin-right: 2%; 
+	}
+	.sideSec{
+		width: 30%;
+	}
+	figure{
+		width: 32%;
+		margin-right: 2%;
+	}
+	figure img{
+		float: left;
+	}
+	figurecaption{
+		font-size: 16px;
+	}
+	footer .left{
+		width: 50%;
+		float: left;
+	}
+	footer .right{
+		width: 50%;
+		float: right;
+		text-align: right;
+	}
+
+}
