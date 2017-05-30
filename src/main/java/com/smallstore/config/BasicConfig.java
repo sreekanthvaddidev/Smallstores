@@ -1,4 +1,4 @@
-package com.smallstore.config;
+package com.smallstore.config; 
 
 import java.util.Properties;
 
